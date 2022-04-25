@@ -16,7 +16,7 @@ public:
 	~SinhVien();
 	void Nhap();
 	void Xuat();
-	int tinhtien();
+	// int tinhtien();
 	string get_Ten()
 	{
 		return hoTen;
@@ -65,6 +65,10 @@ public:
 	{
 		this->soMonDangKyHocLai = soMonDangKyHocLai;
 	}
+
+
+	virtual int tinhtien() 
+	{return 0;}
 };
 
 

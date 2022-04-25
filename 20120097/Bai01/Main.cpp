@@ -1,9 +1,12 @@
 #include "SinhVien.h"
-
+#include "QuanLy.h"
 int main()
 {
-	SinhVien sv;
-	sv.Nhap();
-	sv.Xuat();
-
+	QuanLy quanly;
+	quanly.nhap();
+	cout << "====================";
+	quanly.xuat();
+	cout << "====================";
+	cout << "tong tien " << quanly.tinhTien();
+	return 0;
 }
